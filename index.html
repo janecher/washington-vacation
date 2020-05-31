@@ -8,27 +8,27 @@
     <title>Vacation in WA</title>
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Washington compass</h1>
-            <p>
-                Choose where to go and get unforgettable experience.
-            </p>
+      <div class="jumbotron">
+          <h1>Washington compass</h1>
+          <p>
+              Choose where to go and get unforgettable experience.
+          </p>
+      </div>
+      <div class="navbar navbar-default justify-content-center">
+        <div class="container-fluid">           
+          <ul class="nav navbar-nav">
+            <li ><a href="#north">North</a></li>
+            <li><a href="#west">West</a></li>
+            <li><a href="#south">South</a></li>
+            <li><a href="#east">East</a></li>
+          </ul>
         </div>
-        <nav class="navbar navbar-default justify-content-center">
-            <div class="container-fluid">           
-              <ul class="nav navbar-nav">
-                <li ><a href="#">North</a></li>
-                <li><a href="#">West</a></li>
-                <li><a href="#">South</a></li>
-                <li><a href="#">East</a></li>
-              </ul>
-            </div>
-        </nav>
+      </div>
+      <div class="container"></div>
         <div class="col-md-12">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h2 class="panel-title">North<span>Package: 4 nights/$3500</span></h2>
+                  <h2 class="panel-title" id="north">North<span>Package: 4 nights/$3500</span></h2>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -38,13 +38,27 @@
                     <li>Diablo Lake, North Cascade NP</li>
                     <li>Tulip town, Mount Vernon</li>
                   </ul>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/deception-pass.jpg" alt="Deception Pass">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/artist-point.jpg" alt="Artist Point">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/diablo-lake.jpg" alt="Diablo Lake">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/tulip.jpg" alt="Tulip town">
+                    </div>
+                  </div>
                 </div>
             </div>        
         </div>
         <div class="col-md-12">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h2 class="panel-title">West<span>Package: 4 nights/$3500</span></h2>
+                  <h2 class="panel-title" id="west">West<span>Package: 4 nights/$3500</span></h2>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -52,31 +66,57 @@
                     <li>Hurricane Ridge, Port Angeles</li>
                     <li>Lake Crescent</li>
                     <li>Neah Bay</li>
-                    <li>Hoh Rainforest</li>
-                    <li>Ruby Beach</li>
                   </ul>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/olimpic.jpg" alt="Sequim">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/hurricane-ridge.jpg" alt="Hurricane Ridge">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/crescent-lake.jpg" alt="Crescent Lake">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/neah-bay.jpg" alt="Neah bay">
+                    </div>
+                  </div>
                 </div>
             </div>        
         </div>
         <div class="col-md-12">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h2 class="panel-title">South<span>Package: 3 nights/$2500</span></h2>
+                  <h2 class="panel-title" id="south">South<span>Package: 3 nights/$2500</span></h2>
                 </div>
                 <div class="panel-body">
                   <ul>
                     <li>Olympia</li>
                     <li>Hood Canal</li>
-                    <li>Mt St Helen NM</li>
+                    <li>Mt St. Helens NM</li>
                     <li>Rainier NP</li>
                   </ul>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/olympia.jpg" alt="Olympia">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/hood-canal.jpg" alt="Hood Canal">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/st-helen.jpg" alt="Mt St. Helens">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/rainier.jpg" alt="Rainier">
+                    </div>
+                  </div>
                 </div>
             </div>        
         </div>
         <div class="col-md-12">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h2 class="panel-title">East<span>Package: 2-7 nights/$1000-$5000</span></h2>
+                  <h2 class="panel-title" id="east">East<span>Package: 2-7 nights/$1000-$5000</span></h2>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -86,6 +126,20 @@
                     <li>Gold Creek Pond</li>
                     <li>Snoqualmie falls</li>
                   </ul>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/leavenworth.jpg" alt="Leavenworth">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/chelan.jpg" alt="Lake Chelan">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/dry-falls.jpg" alt="Dry Falls">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <img class="thumbnail img-responsive" src="./images/snoquilame.jpg" alt="Snoqualmie">
+                    </div>
+                  </div>
                 </div>
             </div>        
         </div>
